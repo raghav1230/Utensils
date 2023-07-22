@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.plates{
+    margin-top: 100px;
+    
+    margin-left: 200px;
+}
+
+.plate-container{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.plate-container .plate-boxes{
+    border:2px solid #ddd;
+    width:300px;
+    height: auto;
+    margin: 30px;
+    box-shadow: 0 0 4px black;
+    padding:10px;
+    border-radius: 10px;
+}
+.plate-container .plate-boxes img{
+    width:100%;
+    height: 200px;
+}
+.plate-container .plate-boxes h3{
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    text-shadow: 0 0 1.5px black;
+}
+@media(max-width:426px)
+{
+    .plates{
+        margin-left: 0px;
+    }
+}
+
