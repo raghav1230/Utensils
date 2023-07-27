@@ -1,0 +1,1223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*header*/
+header{
+    background-color: #2555A6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    top:0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    width:100%;
+}
+
+.logo{
+    margin-left: 30px;
+}
+.logo h1{
+    font-size: 30px;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+}
+.menu{
+    display: none;
+    font-size: 25px;
+}
+#navbar{
+margin-right: 50px;
+}
+#navbar ul a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+ 
+    padding: 8px 16px;
+    font-family: 'Poppins',sans-serif;
+    border-radius: 10px;
+}
+#navbar ul a:hover{
+    padding: 8px 16px;
+    background-color: white;
+    color:black;
+}
+#navbar ul .btn{
+    padding:8px 16px;
+    font-size: 15px;
+    border-radius: 6px;
+    border: none;
+}
+#navbar ul .btn:hover{
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+/*banner*/
+.banner{
+    background: linear-gradient(140deg, #ff4c68, #00bfff);
+    height: 100vh;
+    padding:30px;
+    background-size: cover;
+}
+.banner .content{
+    margin-top: 200px;
+}
+.banner .content h1{
+    font-size: 80px;
+
+}
+.banner .content p{
+margin-top: 20px;
+font-size: 26px;
+color:white;
+font-family: 'Poppins',sans-serif;
+}
+.banner .content a{
+
+text-decoration: none;
+padding: 10px 20px;
+background-color: green;
+color: white;
+font-size: 25px;
+font-family: 'poppins',sans-serif;
+border-radius: 8px;
+}
+.banner .content a:hover{
+    background-color:#2555A6;
+    color:white;
+}
+/*about us*/
+.about{
+    background-color:  #8fd3fe;
+    height:600px;
+}
+
+.about-heading h2{
+    text-align: center;
+    padding:40px;
+    font-size: 50px;
+    font-family: 'Poppins',sans-serif;
+    text-shadow: 0 0 1px black;
+   
+}
+
+.about .about-content{
+text-align: center;
+max-width:1100px;
+margin-left: 200px;
+}
+.about .about-content p{
+ font-size: 26px;
+ font-family:'Poppins',sans-serif;
+    }
+    .about .about-content p span{
+        color:#ff4c68;
+        font-weight: 900;
+    }
+
+    /*our services*/
+    .services{
+        margin-top: 50px;
+        
+    }
+    .services h2{
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .services .services-container{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 30px;
+    }
+    .services .services-container .services-boxes{
+        width:450px;
+        height:450px;
+        margin: 20px;
+       
+    }
+    .services-boxes .services-image img{
+           width: 100%;
+           border-radius: 10px;
+    }
+    .services-boxes .services-content{
+        margin-top: 15px;
+    }
+    .services-boxes .services-content h3{
+        text-align: center;
+        font-size: 30px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+    }
+    .services-boxes .services-content p{
+        margin-top: 15px;
+        font-size: 15px;
+        font-family: 'poppins',sans-serif;
+        text-align: center;
+    }
+    .services-boxes .services-content a{
+        padding: 10px 20px;
+        background-color: rgb(44, 91, 46);
+        color:white;
+        text-decoration: none;
+        margin-left: 40%;
+        border-radius: 10px;
+        font-size: 20px;
+
+    }
+    /*testimonial*/
+    .testimonial{
+        margin-top: 100px;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9));
+        background-color: #2555A6;
+        background-size: cover;
+        height: 88vh;
+
+    }
+    .testimonial .review-container{
+            display: flex;
+    }
+     .testimonial .review-container .review-images img{
+        width:550px;
+        height: 500px;
+        border-radius: 10px;
+        margin-top: 85px;
+        margin-left: 50px;
+        
+    }
+    .testimonial .review-container .review-content{
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+    
+    .testimonial .review-container .review-content h2{
+        color: white;
+        font-size: 50px;
+    }
+    .testimonial .review-container .review-content .review-box p{
+        font-size: 22px;
+        color:ghostwhite;
+       
+        width:700px;
+
+    }
+    .review-container .review-content .review-box{
+        border:1px solid #ddd;
+        margin: 5px;
+        margin-top: 20px;
+        height: 150px;
+        padding: 5px;
+    }
+    .review-container .review-content .review-box i{
+        margin-top: 15px;
+        color:yellow;
+        font-size: 20px;
+    }
+    .review-container .review-content .review-box h3{
+        color:#00bfff;
+        font-size: 20px;
+        margin-top: 4px;
+    }
+    /*address*/
+    .address{
+        margin-top: 25px;
+        background:linear-gradient(120deg,#2980b9,#8e44ad);
+        margin-bottom: 50px;
+        height: 470px;
+    }
+    .address .address-columns{
+        display: flex;
+        padding:30px
+    }
+    .address .address-columns .google-map iframe{
+width:600px;
+height:400px;
+    }
+    .address .address-columns .address-column2{
+        margin-left: 80px;
+    }
+    .address .address-columns .address-column2 .address-box1{
+        margin:30px;
+    }
+    .address .address-columns .address-column2 .address-box1 h2{
+        font-size: 30px;
+        color:black;
+        font-family: 'Poppins';
+
+    }
+    .address .address-columns .address-column2 .address-box1 p{
+        font-size: 20px;
+        margin-top: 8px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    /*contact us*/
+    .contact{
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .contact .contact-columns{
+        display: flex;
+        padding:30px;
+    }
+    .contact-columns .contact-column1{
+        margin: 20px;
+    }
+    .contact-columns .contact-column1 h2{
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .contact-columns .contact-column1 p{
+        margin-top: 20px;
+        font-size: 22px;
+        width:700px;
+        font-family: 'Poppins';
+    }
+    .contact-columns .contact-column2{
+        margin-left: 60px;
+    
+
+    }
+    .contact-columns .contact-column2 form{
+        padding:10px;
+    }
+    .contact-columns .contact-column2 form label{
+        font-size: 25px;
+    }
+    .contact-columns .contact-column2 form input{
+        width: 500px;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 1px solid grey;
+        font-size: 18px;
+        outline: grey;
+    }
+    .contact-columns .contact-column2 form textarea{
+        width:500px;
+        height:100px;
+        border-radius: 10px;
+        border: 1px solid grey;
+        outline: grey;
+    }
+    .contact-columns .contact-column2 form #submit{
+        padding:10px 20px;
+        color:white;
+        background: green;
+        border: none;
+        border-radius: 8px;
+        font-size:  20px;
+    }
+
+    /*footer*/
+
+
+ .footer-contain{
+    max-width:1150px;
+    margin:auto;
+    margin-bottom: 10px;
+    }
+    .footer-row{
+    display:flex;
+    flex-wrap:wrap;
+    }
+    .footer-row .footer-col img{
+      width:90px;
+      height:90px;
+      border-radius: 50%;
+    }
+    .footer-row .footer-col h4{
+      color:lightgreen;
+      font-size: 35px;
+      font-family: 'Poppins';
+    }
+    
+    ul{
+    list-style:none;
+    padding:0px;
+    }
+   .footer{
+    background-color:#2555A6;
+    padding:30px 0;
+  
+    }
+    .footer-col{
+    width:20%;
+    padding:0 15px;
+    }
+    .footer-col h3{
+    font-size:20px;
+    color:white;
+    text-transform:capitalize;
+    margin-bottom:35px;
+    position:relative;
+    }
+    .footer-col h3::before{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:-10px;
+    background-color:#e91e63;
+    height:2px;
+    box-sizing:border-box;
+    width:50px;
+    }
+    .footer-col ul li:not(:last-child){
+    margin-bottom:10px;
+    }
+    .footer-col ul li a{
+    font-size:16px;
+    text-transform:capitalize;
+    color:#ffffff;
+    text-decoration:none;
+    font-weight:300;
+    color:#bbbbbb;
+    display:block;
+    transition:all 0.3s ease;
+    }
+    .footer-col ul li a:hover{
+    color:#ffffff;
+    padding-left:9px;
+    }
+    .footer-col .social-links a{
+    display:inline-block;
+    height:30px;
+    width:30px;
+    background-color:white;
+    margin:0 10px 10px 0;
+    text-align:center;
+    line-height:30px;
+    border:1px solid #e91e63;
+    border-radius:50%;
+    color:blue;
+    transition:all 0.5s ease;
+    }
+    
+    .footer-col .social-links a:hover{
+    color:white;
+    background-color:red;
+    box-shadow:4rem white;
+    
+    }
+    .footer-para{
+      margin-top: 30px;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 5px;
+      
+  
+    }
+    
+    
+    .footer-para p{
+      color:ghostwhite;
+      font-size: 25px;
+    }
+    .footer-para span{
+      color:white;
+      font-size: 17px;
+  
+    }
+    .footer-para h3{
+  color:#00bcd4;
+  font-size: 20px;
+  font-weight: 600;
+  
+  border:none;
+  border-bottom: 2px solid  #e91e63 ;
+  
+    }
+    
+
+
+
+    @media (max-width:426px){
+        .logo{
+            margin-left: 10px;
+        }
+        .logo h1{
+            font-size: 20px;
+            color: white;
+        }
+        #navbar{
+            display: none;
+        }
+        .menu{
+            display: flex;
+            color: white;
+        }
+        #navbar{
+       
+            margin: auto;
+            position: absolute;
+            top:65px;
+            left: 0;
+            right: 0;
+            width:100%;
+            background: #2555A6;
+           transition: 0.2s;
+           height:600px;
+           background-size: cover;
+           display: none;
+         }
+         #navbar ul{
+    
+      
+            display: grid;
+            width:fit-content;
+            margin:30px auto 0 auto;
+            text-align: center;
+            transition: 0.5s;
+           
+            
+         }
+         #navbar ul a{
+         margin: 15px;
+         color:white;
+         text-decoration: none;
+         font-size: 20px;
+         justify-content: center;
+         text-align: center;
+         
+         }
+    /*Banner*/
+    .banner{
+        background: linear-gradient(140deg, #ff4c68, #00bfff);
+        height: 81vh;
+        padding:30px;
+        background-size: cover;
+    }
+    .banner .content{
+        margin-top: 100px;
+    }
+    .banner .content h1{
+        font-size: 50px;
+    
+    }
+    .banner .content p{
+    margin-top: 20px;
+    font-size: 21px;
+    color:white;
+    font-family: 'Poppins',sans-serif;
+    }
+    .banner .content a{
+    
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-family: 'poppins',sans-serif;
+    border-radius: 8px;
+    width:100px;
+    }
+
+/*about us*/
+.about{
+    background-color:  #8fd3fe;
+    height:auto;
+}
+
+.about-heading h2{
+    text-align: center;
+    padding:40px;
+    font-size: 42px;
+    font-family: 'Poppins',sans-serif;
+}
+.about .about-content{
+margin-left: 0px;
+padding: 10px;
+
+
+}
+.about .about-content p{
+ font-size: 22px;
+ font-family:'Poppins',sans-serif;
+}
+
+/*our services*/
+    .services h2{
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .services .services-container{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+    }
+    .services-boxes .services-content a{
+        margin-left: 35%;
+    }
+
+    /*testimonial*/
+    .testimonial{
+        margin-top: 100px;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9));
+        background-color: #2555A6;
+        background-size: cover;
+        height: auto;
+
+    }
+    .testimonial .review-container{
+            display: grid;
+          
+    }
+     .testimonial .review-container .review-images img{
+        width:375px;
+        height: 350px;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: 20px;
+        
+        
+    }
+    .testimonial .review-container .review-content{
+        margin-left: 5px;
+        margin-top: 30px;
+        margin-right: 5px;
+    }
+    
+    .testimonial .review-container .review-content h2{
+        color: white;
+        font-size: 35px;
+        width:400px;
+        text-align: center;
+        margin-left: 5px;
+    }
+    .testimonial .review-container .review-content .review-box p{
+        font-size: 20px;
+        color:ghostwhite;
+        width:auto;
+
+    }
+    .review-container .review-content .review-box{
+        border:1px solid #ddd;
+        margin: 5px;
+        margin-top: 20px;
+        height: 185px;
+        padding: 5px;
+    }
+    .review-container .review-content .review-box i{
+        margin-top: 15px;
+        color:yellow;
+        font-size: 20px;
+    }
+    .review-container .review-content .review-box h3{
+        color:#00bfff;
+        font-size: 20px;
+        margin-top: 4px;
+    }
+
+    /*address*/
+    .address{
+        margin-top: 25px;
+        background:linear-gradient(120deg,#2980b9,#8e44ad);
+        margin-bottom: 50px;
+        height: auto;
+    }
+    .address .address-columns{
+        display: grid;
+        padding:20px;
+    }
+    .address .address-columns .google-map iframe{
+        width:385px;
+        height:250px;
+    }
+    .address .address-columns .address-column2{
+        margin-left: 0px;
+    }
+    .address .address-columns .address-column2 .address-box1{
+        margin:30px;
+    }
+    .address .address-columns .address-column2 .address-box1 h2{
+        font-size: 25px;
+        color:black;
+        font-family: 'Poppins';
+
+    }
+    .address .address-columns .address-column2 .address-box1 p{
+        font-size: 18px;
+        margin-top: 8px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+/*contact us*/
+.contact{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.contact .contact-columns{
+    display: grid;
+    padding:30px;
+}
+.contact-columns .contact-column1{
+    margin: 20px;
+}
+.contact-columns .contact-column1 h2{
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+.contact-columns .contact-column1 p{
+    margin-top: 20px;
+    font-size: 18px;
+    width:350px;
+    font-family: 'Poppins';
+}
+.contact-columns .contact-column2{
+    margin-left: 10px;
+
+
+}
+.contact-columns .contact-column2 form{
+    padding:10px;
+}
+.contact-columns .contact-column2 form label{
+    font-size: 25px;
+}
+.contact-columns .contact-column2 form input{
+    width: 350px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-size: 18px;
+    outline: grey;
+}
+.contact-columns .contact-column2 form textarea{
+    width:350px;
+    height:100px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    outline: grey;
+}
+.contact-columns .contact-column2 form #submit{
+    padding:10px 20px;
+    color:white;
+    background: #2555A6;
+    border: none;
+    border-radius: 8px;
+    font-size:  20px;
+}
+/*footer*/
+.footer-row{
+    display:grid;
+    margin: 20px;
+    }
+    .footer-row .footer-col h4{
+        color:lightgreen;
+        font-size: 35px;
+        font-family: 'Poppins';
+       
+      }
+      .footer-col {
+        width: 20%;
+        padding: 0 15px;
+        margin: 10px;
+    }
+    .footer-para{
+        margin-top: 20px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+        margin-left: 20px;
+      }
+      .footer-para p{
+        color:ghostwhite;
+        font-size: 20px;
+      }
+      .footer-para span{
+        color:white;
+        font-size: 17px;
+    
+      }
+      .footer-para h3{
+    color:#00bcd4;
+    font-size: 18px;
+    font-weight: 600;
+    
+    border:none;
+    border-bottom: 2px solid  #e91e63 ;
+    
+      }
+
+    }
+
+
+@media (max-width:376px){
+    html,body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .logo{
+        margin-left: 10px;
+    }
+    .logo h1{
+        font-size: 20px;
+        color: white;
+    }
+    #navbar{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        color: white;
+    }
+    #navbar{
+   
+        margin: auto;
+        position: absolute;
+        top:65px;
+        left: 0;
+        right: 0;
+        width:100%;
+        background: #2555A6;
+       transition: 0.2s;
+       height:600px;
+       background-size: cover;
+       display: none;
+     }
+     #navbar ul{  
+        display: grid;
+        width:fit-content;
+        margin:30px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+    }
+    #navbar ul a{
+     margin: 15px;
+     color:white;
+     text-decoration: none;
+     font-size: 20px;
+     justify-content: center;
+     text-align: center;
+    }
+     /*Banner*/
+     .banner{
+        background: linear-gradient(140deg, #ff4c68, #00bfff);
+        height: 81vh;
+        padding:30px;
+        background-size: cover;
+    }
+    .banner .content{
+        margin-top: 100px;
+    }
+    .banner .content h1{
+        font-size: 45px;
+    
+    }
+    .banner .content p{
+    margin-top: 20px;
+    font-size: 21px;
+    color:white;
+    font-family: 'Poppins',sans-serif;
+    }
+    .banner .content a{
+    
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-family: 'poppins',sans-serif;
+    border-radius: 8px;
+    width:100px;
+    }
+    /*about us*/
+.about{
+    background-color:  #8fd3fe;
+    height:auto;
+}
+
+.about-heading h2{
+    text-align: center;
+    padding:40px;
+    font-size: 42px;
+    font-family: 'Poppins',sans-serif;
+}
+.about .about-content{
+margin-left: 0px;
+padding: 10px;
+
+
+}
+.about .about-content p{
+ font-size: 21px;
+ font-family:'Poppins',sans-serif;
+    }
+
+/*services*/
+.services-boxes .services-content a{
+    margin-left: 33%;
+}
+
+    
+    /*testimonial*/
+    .testimonial{
+        margin-top: 100px;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9));
+        background-color: #2555A6;
+        background-size: cover;
+        height: auto;
+
+    }
+    .testimonial .review-container{
+            display: grid;
+          
+    }
+     .testimonial .review-container .review-images img{
+        width:350px;
+        height: 350px;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: 10px;
+        
+        
+    }
+    .testimonial .review-container .review-content{
+        margin-left: 0px;
+        margin-top: 30px;
+        margin-right: 5px;
+    }
+    
+    .testimonial .review-container .review-content h2{
+        color: white;
+        font-size: 32px;
+        width:370px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .testimonial .review-container .review-content .review-box p{
+        font-size: 18px;
+        color:ghostwhite;
+        width:auto;
+
+    }
+    .review-container .review-content .review-box{
+        border:1px solid #ddd;
+        margin: 5px;
+        margin-top: 20px;
+        height: 180px;
+        padding: 5px;
+        width: 360px;
+        margin-left: 8px;
+        
+    }
+    .review-container .review-content .review-box i{
+        margin-top: 15px;
+        color:yellow;
+        font-size: 20px;
+    }
+    .review-container .review-content .review-box h3{
+        color:#00bfff;
+        font-size: 20px;
+        margin-top: 4px;
+    }
+
+       /*address*/
+       .address{
+        margin-top: 25px;
+        background:linear-gradient(120deg,#2980b9,#8e44ad);
+        margin-bottom: 50px;
+        height: auto;
+    }
+    .address .address-columns{
+        display: grid;
+        padding:20px;
+    }
+    .address .address-columns .google-map iframe{
+width:340px;
+height:230px;
+    }
+    /*contact us*/
+.contact{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.contact .contact-columns{
+    display: grid;
+    padding:10px;
+}
+.contact-columns .contact-column1{
+    margin-top: 20px;
+}
+.contact-columns .contact-column1 h2{
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+.contact-columns .contact-column1 p{
+    margin-top: 20px;
+    font-size: 18px;
+    width:300px;
+    font-family: 'Poppins';
+}
+.contact-columns .contact-column2{
+    margin-left: 10px;
+
+
+}
+.contact-columns .contact-column2 form{
+    padding:10px;
+}
+.contact-columns .contact-column2 form label{
+    font-size: 22px;
+}
+.contact-columns .contact-column2 form input{
+    width: 300px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-size: 16px;
+    outline: grey;
+}
+.contact-columns .contact-column2 form textarea{
+    width:300px;
+    height:100px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    outline: grey;
+}
+.contact-columns .contact-column2 form #submit{
+    padding:10px 20px;
+    color:white;
+    background: #2555A6;
+    border: none;
+    border-radius: 8px;
+    font-size:  20px;
+}
+
+    
+    
+
+}
+
+@media (max-width:321px){
+    html,body{
+        
+        overflow-x: hidden;
+    }
+    .logo{
+        margin-left: 10px;
+    }
+    .logo h1{
+        font-size: 20px;
+        color: white;
+    }
+    #navbar{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        color: white;
+    }
+    #navbar{
+   
+        margin: auto;
+        position: absolute;
+        top:65px;
+        left: 0;
+        right: 0;
+        width:100%;
+        background: #2555A6;
+       transition: 0.2s;
+       height:700px;
+       background-size: cover;
+       display: none;
+     }
+     #navbar ul{
+
+  
+        display: grid;
+        width:fit-content;
+        margin:30px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+       
+        
+     }
+     #navbar ul a{
+     margin: 15px;
+     color:white;
+     text-decoration: none;
+     font-size: 20px;
+     justify-content: center;
+     text-align: center;
+     
+     }
+     /*Banner*/
+     .banner{
+        background: linear-gradient(140deg, #ff4c68, #00bfff);
+        height: 81vh;
+        padding:30px;
+        background-size: cover;
+    }
+    .banner .content{
+        margin-top: 100px;
+    }
+    .banner .content h1{
+        font-size: 37px;
+    
+    }
+    .banner .content p{
+    margin-top: 20px;
+    font-size: 21px;
+    color:white;
+    font-family: 'Poppins',sans-serif;
+    }
+    .banner .content a{
+    
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    font-family: 'poppins',sans-serif;
+    border-radius: 8px;
+    width:100px;
+    }
+    /*about us*/
+.about{
+    background-color:  #8fd3fe;
+    height:auto;
+}
+
+.about-heading h2{
+    text-align: center;
+    padding:40px;
+    font-size: 35px;
+    font-family: 'Poppins',sans-serif;
+}
+.about .about-content{
+margin-left: 0px;
+padding: 10px;
+}
+.about .about-content p{
+ font-size: 20px;
+ font-family:'Poppins',sans-serif;
+}
+
+/*Our services*/
+.services-boxes .services-content a{
+        margin-left: 29%;
+}
+
+/*testimonial*/
+    
+     .testimonial .review-container .review-images img{
+        width:300px;
+        height: 300px;
+        border-radius: 10px;
+        margin-top: 50px;
+        margin-left: 8px;
+        
+        
+    }
+    .testimonial .review-container .review-content{
+        margin-left: 0px;
+        margin-top: 30px;
+        margin-right: 5px;
+    }
+    
+    .testimonial .review-container .review-content h2{
+        color: white;
+        font-size:28px;
+        width:310px;
+        text-align: center;
+        margin-left: 10px;
+    }
+    .testimonial .review-container .review-content .review-box p{
+        font-size: 16px;
+        color:ghostwhite;
+        width:auto;
+
+    }
+    .review-container .review-content .review-box{
+        border:1px solid #ddd;
+        margin: 5px;
+        margin-top: 20px;
+        height: 180px;
+        padding: 5px;
+        width: 305px;
+        margin-left: 8px;
+        
+    }
+    .review-container .review-content .review-box i{
+        margin-top: 15px;
+        color:yellow;
+        font-size: 20px;
+    }
+    .review-container .review-content .review-box h3{
+        color:#00bfff;
+        font-size: 20px;
+        margin-top: 4px;
+    }
+    /*address*/
+    .address .address-columns .google-map iframe{
+        width:280px;
+        height:200px;
+            }
+            .address .address-columns .address-column2 .address-box1 h2{
+                font-size: 22px;
+                color:black;
+                font-family: 'Poppins';
+        
+            }
+            .address .address-columns .address-column2 .address-box1 p{
+                font-size: 16px;
+                margin-top: 8px;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+            }
+            /*contact us*/
+            .contact-columns .contact-column1 h2{
+                font-size: 30px;
+                font-weight: 600;
+                
+            }
+            .contact-columns .contact-column1 p{
+                margin-top: 20px;
+                font-size: 16px;
+                width:270px;
+                font-family: 'Poppins';
+            }
+            .contact-columns .contact-column2{
+                margin-left: 10px;
+            
+            
+            }
+            .contact-columns .contact-column2 form{
+                padding:10px;
+            }
+            .contact-columns .contact-column2 form label{
+                font-size: 20px;
+            }
+            .contact-columns .contact-column2 form input{
+                width: 260px;
+                padding: 8px 16px;
+                border-radius: 10px;
+                border: 1px solid grey;
+                font-size: 13px;
+                outline: grey;
+            }
+            .contact-columns .contact-column2 form textarea{
+                width:260px;
+                height:100px;
+                border-radius: 10px;
+                border: 1px solid grey;
+                outline: grey;
+            }
+            .contact-columns .contact-column2 form #submit{
+                font-size: 20px;
+                padding:8px 16px;
+            }
+
+}
+

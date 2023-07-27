@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.plate-container .plate-info table{
+    border-collapse: collapse;
+    display: table;
+    box-sizing: border-box;
+    border-color: gray;
+    margin-top: 30px;
+    margin-left: 15px;
+    font-family: arial; 
+    margin-bottom: 30px;
+    margin-right: 15px;
+
+}
+.plate-container .plate-info table tr{
+    display: table-row;
+    border-color: inherit;
+
+}
+
+.plate-container .plate-info table tr td{
+    display:table-cell;
+    font-family: arial;
+    letter-spacing: .5px;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+    padding: 3px 4px;
+    border: 2px solid #bbb;
+}
+
+.plate-container .plate-info table tr td:first-child{
+    color: #848484;
+    width: 40%;
+}
+
+
+@media(max-width:426px)
+{
+    .plates{
+        margin-left: 0px;
+    }
+}

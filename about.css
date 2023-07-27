@@ -1,0 +1,9 @@
+.about-heading h2{
+    margin-top: 55px;
+    text-align: center;
+    padding:40px;
+    font-size: 50px;
+    font-family: 'Poppins',sans-serif;
+    text-shadow: 0 0 1px black;
+   
+}
